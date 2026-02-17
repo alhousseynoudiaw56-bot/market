@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f9fa;
+    color: #0b5c6b;
+}
+#logo{
+    width: 70px;
+    height: 30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto
+}
+
+/* HEADER */
+header {
+    background: white;
+    padding: 15px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    background-color: #0b5c6b;
+    padding: 15px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    color: #0b5c6b;
+}
+
+/* BUTTONS */
+
+.button a{
+    text-decoration: none;
+    padding: 10;
+}
+
+/* HERO */
+.hero {
+    
+    background-color: rgb(243, 239, 239);
+
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    
+}
+.para1{
+   
+}
+
+
+.hero img {
+    
+}
+.hero h1{
+    color: #0b5c6b;
+}
+.btn2{
+    text-align: center;
+    word-spacing: 30px;
+    padding: 30px;
+   
+}
+
+
+/* PRESENTATION */
+.presentation {
+    background: #0b5c6b;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* PARTNERS */
+.partners {
+    padding: 50px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners-logos img {
+    width: 120px;
+    margin: 10px;
+}
+.btn3{
+    font-size: 30px;
+    
+}
+
+
+/*temoignages*/
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.card{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+}
+.cars img{
+    background: #111;
+    color: white;
+    padding: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    background: #0b5c6b;
+   position: absolute;
+   left: 25%;
+
+    
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.btn1{
+    font-size: 30px;
+    margin-top: 90px;
+}
